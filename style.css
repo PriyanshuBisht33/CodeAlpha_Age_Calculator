@@ -1,0 +1,58 @@
+/* Reset all margins and paddings */
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Center body content and set background color */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000; /* Black background */
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the main container */
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #222; /* Dark background */
+    color: #fff; /* White text color */
+    width: 300px; /* Fixed width */
+}
+
+/* Style for the header */
+h1 {
+    color: #ffa500; /* Orange color */
+    margin-bottom: 20px;
+}
+
+/* Style for form labels */
+form label {
+    color: #ffa500; /* Orange color */
+    margin-right: 10px;
+}
+
+/* Style for input fields */
+input[type="number"] {
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid #ffa500; /* Orange border */
+    border-radius: 5px;
+    background-color: #333; /* Dark input background */
+    color: #fff; /* White text color */
+}
+
+/* Style for the calculate button */
+button {
+    background-color: #ffa500; /* Orange button color */
+    color: #000; /* Black text color on button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px
+}
